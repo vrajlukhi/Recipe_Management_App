@@ -15,12 +15,12 @@ MongoDB is used as the database, and JWT (JSON Web Tokens) is employed for secur
 - **Authorization**: Protects recipe modification routes using JWT middleware.
 
 
-Set up the .env file:
-  MONGO_URI=<Your MongoDB URI>
-  JWT_SECRET=<Your JWT Secret>
-  PORT=5000
+- Set up the .env file:
+  - MONGO_URI=<MongoDB URI>
+  - JWT_SECRET=<JWT >
+  - PORT=8090
 
-API Endpoints
+- API Endpoints
   - POST /api/auth/register: Register a user.
   - POST /api/auth/login: Log in a user.
   - POST /api/recipes: Create a recipe (auth required).
