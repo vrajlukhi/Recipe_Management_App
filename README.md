@@ -16,8 +16,8 @@ MongoDB is used as the database, and JWT (JSON Web Tokens) is employed for secur
 
 
 - Set up the .env file:
-  - MONGO_URI=<MongoDB URI>
-  - JWT_SECRET=<JWT >
+  - MONGO_URI
+  - JWT_SECRET
   - PORT=8090
 
 - API Endpoints
