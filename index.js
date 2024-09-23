@@ -9,6 +9,9 @@ app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 app.use(cookie())
 
+app.get("/",(req,res)=>{
+    res.redirect("/user/signup")
+})
 app.use("/user",URoute)
 app.use("/recipe",ERoute)
 app.use((err, req, res, next) => {
